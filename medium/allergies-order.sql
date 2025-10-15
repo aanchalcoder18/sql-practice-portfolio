@@ -3,5 +3,5 @@
 
 SELECT first_name, last_name, allergies
 FROM patients
-where allergies = 'Penicillin' OR allergies = 'Morphine'
+WHERE allergies = 'Penicillin' OR allergies = 'Morphine'
 ORDER BY allergies ASC, first_name ASC, last_name ASC;
